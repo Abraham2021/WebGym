@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlueGym</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="contacto">
+      <nav class="menu">
+        <label class="logo">BlueGym</label>
+
+        <ul class="menu_items">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="clase.html">Clases</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li class="active"><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+        <span class="btn_menu">
+          <i class="fa fa-bars"></i>
+        </span>
+      </nav>
+      <div id="momoland">
+        <div class="wrapper">
+          <div class="carbon-block"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="contacto-form">
+      
+      <div class="formulario">
+        <h5 class="titulo-contacto">Contacto</h5>
+        <form action=""></form>  
+          <br>
+          <input id="input" type="text" placeholder="Nombre">
+          <br>  
+          <input id="input" type="text" placeholder="Asunto">
+          <br>
+          <textarea class="terea" name="" id="" cols="30" rows="10" placeholder="Mensaje">
+          </textarea>
+          <br>
+
+          <button class="btn-enviarForm">Enviar</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+
+
+
+    <footer>
+      <div class="box-footer">
+        <dix class="box1">
+          <h5>Contactanos en nuestras redes sociales</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            perspiciatis
+          </p>
+          <br />
+          <p><strong>Tel: </strong>2540-5040</p>
+          <br />
+          <p><strong>Direccion: </strong> Carretera a masaya</p>
+          <br />
+          <div class="social">
+            <img src="img/fb.png" alt="" />
+            <img src="img/ig.png" alt="" />
+            <img src="img/tw.png" alt="" />
+          </div>
+        </dix>
+
+        <dix class="box1">
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15604.445174556442!2d-86.3072459!3d12.10453285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sni!4v1598655872783!5m2!1ses-419!2sni"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+        </dix>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/daisy.js"></script>
+    <script>
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          daisyjs(document.getElementById("momoland"), {
+            dotColor: "#18dbe9",
+            lineColor: "#fff",
+          });
+        },
+        false
+      );
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
